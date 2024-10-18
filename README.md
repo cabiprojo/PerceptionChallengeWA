@@ -23,6 +23,6 @@ What I did:
   - The current method uses `cv2.fitLine()` to fit lines based on the cone centroids. While it generally works well, small adjustments were needed to accurately capture the alignment of cones, particularly on the left side.
   - The code was modified to adjust the parameters for contour area and line fitting to better align the drawn lines with the cone rows. I used trial and error to change HSV values that eventually led to the red lines aligning very closely with the red cones.
 
-### 4. Libraries Used
+### Libraries Used
 - OpenCV: Used for image loading, color space conversion, contour detection, line fitting, and drawing.
 - NumPy: Used for numerical operations like array manipulation and mathematical calculations, such as storing and processing cone centroids.
